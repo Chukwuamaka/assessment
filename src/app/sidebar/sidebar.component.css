@@ -1,6 +1,10 @@
 .sidebar-container {
     padding-left: 14%;
-    padding-top: 5%;
+    padding-top: 1px;
+}
+
+#logo {
+    margin-bottom: 20%;
 }
 
 .sidebar-item {
@@ -8,8 +12,11 @@
     margin-bottom: 30px;
 }
 
-#logo {
-    margin-bottom: 20%;
+.sidebar-item#leave {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 3px 0 0 3px;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
 .sidebar-icon {

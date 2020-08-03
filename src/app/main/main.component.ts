@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
     styles: [`
         div {
             background-color: #F8F9FD;
+            padding-bottom: 35px;
         }
     `]
 })

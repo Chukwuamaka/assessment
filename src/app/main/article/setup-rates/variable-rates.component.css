@@ -45,6 +45,10 @@ form #itemName, form #itemRate {
     margin-right: 15px;
 }
 
+form #itemName:focus, form #itemRate:focus {
+    outline: #FFFFFF;
+}
+
 form #itemRate {
     max-width: 60%;
 }

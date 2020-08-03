@@ -26,6 +26,10 @@ form #itemName, form #level, form #staffer, form #rate {
     border-radius: 2px;
 }
 
+form #itemName:focus, form #rate:focus {
+    outline: #FFFFFF;
+}
+
 form #itemName {
     padding: 10px 0 8px 15px;
 }

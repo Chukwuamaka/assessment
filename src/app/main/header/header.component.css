@@ -10,6 +10,10 @@
     flex-basis: 40%;
 }
 
+.flex-item-1 fa-icon {
+    margin-right: 6px;
+}
+
 .flex-item-1 input#search {
     border: none;
 }
@@ -19,8 +23,13 @@
     text-align: end;
 }
 
-.flex-item-2 * {
+.flex-item-2 > * {
     margin-right: 15px;
+}
+
+.flex-item-2 span {
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    padding-left: 15px;
 }
 
 #dp {

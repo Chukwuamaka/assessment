@@ -15,7 +15,7 @@ import { SetupClaimsComponent } from './main/article/setup-claims/setup-claims.c
 import { ClaimsInfoComponent } from './main/article/claims-info/claims-info.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBook, faUser, faAngleDown, faSuitcase, faCopyright, faQuestionCircle, faCog, faSearch, faHome, faPlusCircle, faSave, faSquare, faPencilAlt, faTrashAlt, faFilter } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faUser, faAngleDown, faSuitcase, faCopyright, faQuestionCircle, faCog, faSearch, faHome, faPlusCircle, faSave, faSquare, faPencilAlt, faTrashAlt, faFilter, faCircle } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarAlt, faBell, faClock } from '@fortawesome/free-regular-svg-icons';
 
 @NgModule({
@@ -42,6 +42,6 @@ import { faCalendarAlt, faBell, faClock } from '@fortawesome/free-regular-svg-ic
 })
 export class AppModule {
   constructor() {
-    library.add(faBook, faUser, faAngleDown, faCalendarAlt, faSuitcase, faCopyright, faQuestionCircle, faBell, faClock, faCog, faSearch, faHome, faPlusCircle, faSave, faSquare, faPencilAlt, faTrashAlt, faFilter);
+    library.add(faBook, faUser, faAngleDown, faCalendarAlt, faSuitcase, faCopyright, faQuestionCircle, faBell, faClock, faCog, faSearch, faHome, faPlusCircle, faSave, faSquare, faPencilAlt, faTrashAlt, faFilter, faCircle);
   }
 }
