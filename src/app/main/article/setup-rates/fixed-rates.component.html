@@ -1,0 +1,26 @@
+<div class="heading">
+    <p>
+        <fa-icon [icon]="['fas', 'angle-down']" class="angle-down"></fa-icon>
+        <span>Fixed Rates</span>
+    </p>
+    <span class="filter"><fa-icon [icon]="['fas', 'filter']" id="filter"></fa-icon> Filter <fa-icon [icon]="['fas', 'angle-down']" class="angle-down"></fa-icon></span>
+</div>
+
+<div class="flex-container main-container">
+    <form class="flex-container">
+        <fieldset>
+            <legend>Item Name</legend>
+            <input id="itemName" type="text" value="Fuel" autocomplete>
+        </fieldset>
+        <fieldset>
+            <legend>Item Rate</legend>
+            <input id="itemRate" type="text" value="NGN 4,000" readonly autocomplete>
+        </fieldset>
+    </form>
+
+    <div class="icons">
+        <fa-icon [icon]="['fas', 'square']" [styles]="{'color': '#FFFFFF'}" size="lg"></fa-icon>
+        <fa-icon [icon]="['fas', 'pencil-alt']"></fa-icon>
+        <fa-icon [icon]="['fas', 'trash-alt']"></fa-icon>
+    </div>
+</div>

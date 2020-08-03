@@ -1,0 +1,25 @@
+.sidebar-container {
+    padding-left: 14%;
+    padding-top: 5%;
+}
+
+.sidebar-item {
+    padding-left: 5%;
+    margin-bottom: 30px;
+}
+
+#logo {
+    margin-bottom: 20%;
+}
+
+.sidebar-icon {
+    margin-right: 18px;
+}
+
+.sidebar-text, #angle-down {
+    font-weight: lighter;
+}
+
+#staff-record {
+    margin-right: 30%;
+}

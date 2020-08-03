@@ -1,0 +1,52 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 5px 7% 5px 7%;
+    background-color: #FFFFFF;
+}
+
+.flex-item-1 {
+    flex-basis: 40%;
+}
+
+.flex-item-1 input#search {
+    border: none;
+}
+
+.flex-item-2 {
+    flex-basis: 60%;
+    text-align: end;
+}
+
+.flex-item-2 * {
+    margin-right: 15px;
+}
+
+#dp {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 5%;
+    vertical-align: middle;
+}
+
+.heading {
+    padding: 0 7%;
+    
+}
+
+.breadcrumb {
+    font-size: 80%;
+}
+
+.breadcrumb * {
+    margin-right: 2px;
+}
+
+.breadcrumb .green {
+    color: #6EAC54;
+}
+
+.breadcrumb, .title {
+    margin-bottom: 30px;
+}

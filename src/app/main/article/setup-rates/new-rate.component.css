@@ -1,0 +1,73 @@
+.flex-container {
+    display: flex;
+    background-color: #F5F7FD;
+    padding: 20px 0 10px;
+}
+
+.flex-item {
+    flex-shrink: 1;
+}
+
+form fieldset, .add-analysis {
+    border: 1px solid #F5F7FD;
+}
+
+form legend {
+    font-size: 70%;
+    background-color: #FFFFFF;
+    color: #6EAC54;
+    padding: 5px 15px 10px 5px;
+    margin-bottom: -17px;
+    margin-left: 8px;
+}
+
+form #itemName, form #level, form #staffer, form #rate {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+form #itemName {
+    padding: 10px 0 8px 15px;
+}
+
+form #level, form #staffer {
+    max-height: 36px;
+    margin-top: 15px;
+}
+
+form #rate {
+    max-height: 32px;
+    margin-top: 15px;
+    max-width: 15%;
+}
+
+form #level, form #staffer, form #rate {
+    margin-right: 15px;
+}
+
+.add-analysis {
+    padding: 7px;
+    border-radius: 20px;
+    background-color:  #E7E7E7;
+    margin-top: 14px;
+}
+
+.add-analysis .icon {
+    margin-right: 5px;
+}
+
+#save-container {
+    padding-left: 12px;
+    margin-top: 28px;
+}
+
+#save {
+    display: inline-block;
+    color: white;
+    background-color: #6EAC54;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 11px 30px;
+    margin-bottom: 45px;
+}

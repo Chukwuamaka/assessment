@@ -1,0 +1,26 @@
+<form class="flex-container">
+    <fieldset class="flex-item">
+        <legend>Item Name</legend>
+        <input id="itemName" type="text" value="Hotel" autocomplete>
+    </fieldset>
+    <select name="level" id="level" class="flex-item">
+        <option value="Level 9 Staff">Level 9 Staff</option>
+        <option value="Level 10 Staff">Level 10 Staff</option>
+        <option value="Level 11 Staff">Level 11 Staff</option>
+        <option value="Level 12 Staff">Level 12 Staff</option>
+        <option value="Level 13 Staff" selected>Level 13 Staff</option>
+    </select>
+    <select name="staffer" id="staffer" class="flex-item">
+        <option value="Akin Ojo" selected>Akin Ojo</option>
+        <option value="Alabi Akande">Alabi Akande</option>
+        <option value="Chukwuma Godspower">Chukwuma Emeka</option>
+        <option value="Aliyu Mohammed">Aliyu Mohammed</option>
+        <option value="Jammie Lanister">Jammie Lanister</option>
+    </select>
+    <input id="rate" class="flex-item" type="number" placeholder="Enter Rate" autocomplete>
+    <p class="add-analysis flex-item">
+        <fa-icon [icon]="['fas', 'plus-circle']" [styles]="{'color': 'green'}" size="lg" class="icon"></fa-icon> <span class="text"> Add another Analysis</span>
+    </p>
+</form>
+
+<div id="save-container"><a href="" id="save"><fa-icon [icon]="['fas', 'save']" style="margin-right: 3px;"></fa-icon> SAVE</a></div>

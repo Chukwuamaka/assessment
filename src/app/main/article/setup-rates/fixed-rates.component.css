@@ -1,0 +1,73 @@
+div.heading {
+    max-height: 43px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 9px;
+}
+
+div.heading p .angle-down {
+    margin-right: 18px;
+}
+
+.filter {
+    color: #CCCCCC;
+    background-color: #7D7D7D;
+    padding: 6px;
+    margin-bottom: 9px;
+    border: 1px solid #7D7D7D;
+    border-radius: 5px;
+}
+
+.filter #filter {
+    margin-right: 3px;
+}
+
+.filter .angle-down {
+    margin-left: 3px;
+}
+
+.main-container {
+    background-color: #F5F7FD;
+    padding: 20px 40px 17px 28px;
+    border-radius: 7px;
+    margin-bottom: 45px;
+}
+
+.flex-container, div.heading {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 0 10px; */
+}
+
+form fieldset {
+    border: 1px solid #F5F7FD;
+}
+
+form legend {
+    font-size: 70%;
+    background-color: #FFFFFF;
+    color: #6EAC54;
+    padding: 5px 15px 10px 5px;
+    margin-bottom: -17px;
+    margin-left: 8px;
+}
+
+form #itemName, form #itemRate {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 10px 0 8px 15px;
+    margin-right: 15px;
+}
+
+form #itemName:focus, form #itemRate:focus {
+    outline: #FFFFFF;
+}
+
+form #itemRate {
+    max-width: 60%;
+}
+
+div.icons * {
+    padding-right: 20px;
+}

@@ -1,0 +1,50 @@
+div.heading {
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 9px;
+}
+div.heading fa-icon {
+    margin-right: 18px;
+}
+
+.forms-container {
+    background-color: #F5F7FD;
+    padding: 20px 0 17px 45px;
+    border-radius: 7px;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px 0 10px;
+}
+
+.flex-item {
+    flex-basis: 20%;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+}
+
+form fieldset {
+    border: 1px solid #F5F7FD;
+}
+
+form legend {
+    font-size: 70%;
+    background-color: #FFFFFF;
+    color: #6EAC54;
+    padding: 5px 15px 10px 5px;
+    margin-bottom: -17px;
+    margin-left: 8px;
+}
+
+form #itemName, form #itemRate {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 10px 0 8px 15px;
+    margin-right: 15px;
+}
+
+form #itemRate {
+    max-width: 60%;
+}
